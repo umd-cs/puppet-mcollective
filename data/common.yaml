@@ -58,6 +58,7 @@ mcollective::server: true
 mcollective::client: false
 mcollective::purge: true
 mcollective::facts_refresh_interval: 10
+mcollective::periodic_runmode: 'cron'
 mcollective::facts_pidfile: "/var/run/puppetlabs/mcollective-facts_refresh.pid"
 mcollective::plugin_owner: "root"
 mcollective::plugin_group: "root"
